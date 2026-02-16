@@ -2,13 +2,23 @@
   "amount_cents": 2599,
   "currency": "USD",
   "description": "Premium subscription - February 2026",
+  "capture_method": "manual",
   "customer": {
     "id": "cust_501",
-    "email": "customer@example.com"
+    "email": "customer@example.com",
+    "name": "John Doe"
+  },
+  "payment_method": {
+    "type": "card",
+    "last4": "4242",
+    "brand": "visa",
+    "exp_month": 12,
+    "exp_year": 2028
   },
   "metadata": {
     "order_id": "ORD-98765",
-    "source": "web_checkout",
-    "campaign": "winter_sale"
-  }
+    "campaign": "winter_sale",
+    "platform": "web_checkout"
+  },
+  "idempotency_key": "idem_20260215_0001"
 }
